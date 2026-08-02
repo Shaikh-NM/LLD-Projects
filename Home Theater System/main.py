@@ -7,7 +7,7 @@ class TheaterLights:
 
 class Projector:
     def turn_on(self) -> None:
-        pass
+        print(f"Projector turned on successfully")
 
     def set_input(self, source: str) -> None:
         pass
