@@ -75,7 +75,7 @@ class CinemaProfile(TheaterStartupTemplate):
         self._amp.set_volume(level=75)
 
 class NightModeProfile(TheaterStartupTemplate):
-    pass
+    print("NightModeProfile") # remove this later
 
 class HomeTheaterFacade:
     def __init__(self, startup_profile: TheaterStartupTemplate):
