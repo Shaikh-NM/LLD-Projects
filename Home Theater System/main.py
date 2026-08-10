@@ -10,10 +10,10 @@ class Projector:
         print(f"Projector turned on successfully")
 
     def set_input(self, source: str) -> None:
-        pass
+        print(f"set input done successfully")
 
     def wide_screen_mode(self) -> None:
-        pass
+        print(f"wide screen mode updated successfully")
 
 class Amplifier:
     pass
