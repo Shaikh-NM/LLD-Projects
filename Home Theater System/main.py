@@ -16,6 +16,7 @@ class Projector:
         print(f"wide screen mode updated successfully")
 
 class Amplifier:
+    print(f"Amplifier class")
     pass
 
 class StreamingPlayer:
