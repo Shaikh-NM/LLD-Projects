@@ -3,7 +3,7 @@ class TheaterLights:
         pass
 
     def on(self) -> None:
-        pass
+        print('Theater lights turned on successfully')
 
 class Projector:
     def turn_on(self) -> None:
