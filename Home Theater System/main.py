@@ -1,6 +1,6 @@
 class TheaterLights:
     def dim(self, level: int) -> None:
-        pass
+        print('Theater lights dimmed successfully')
 
     def on(self) -> None:
         print('Theater lights turned on successfully')
