@@ -10,7 +10,7 @@ class Projector:
         pass
 
     def set_input(self, source: str) -> None:
-        print(f"set input done successfully")
+        pass
 
     def wide_screen_mode(self) -> None:
         print(f"wide screen mode updated successfully")
