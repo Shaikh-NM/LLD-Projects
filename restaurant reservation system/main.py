@@ -50,7 +50,6 @@ class TimeSlot:
 # ==========================================
 # 2. OBSERVER PATTERN (Notifications)
 # ==========================================
-
 class NotificationObserver(ABC):
     @abstractmethod
     def on_reservation_updated(self, reservation: 'Reservation') -> None:
