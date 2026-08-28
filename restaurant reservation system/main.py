@@ -45,7 +45,8 @@ class TimeSlot:
         # return f"{self.date_str}_{self.start_hour:02d}:00"
 
     def __repr__(self) -> str:
-        return f"[{self.date_str} {self.start_hour:02d}:00 - {self.end_hour:02d}:00]"
+        pass
+        # return f"[{self.date_str} {self.start_hour:02d}:00 - {self.end_hour:02d}:00]"
 
 
 # ==========================================
